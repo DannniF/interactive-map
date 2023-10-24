@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="main.js" defer></script>
+  
+</head>
+<body>
+<!-- <header>
+    <h1>X marks the Spot</h1>
+    <h2>Foodies rejoice , the only map to show you only the most elusive best food spots in vegas </h2>
+</header> -->
+<nav>
+
+    <form>
+    <h4>Pick ur Location</h4>
+    <select id = "business">
+        <option value="coffee">Coffee</option>
+        <option value="resturant">Resturants</option>
+        <option value="hotel">Hotel</option>
+        <option value="market">Market</option>
+        </select>
+        <!-- <input id="submit" type = "submit" value = "submit"/> input was giving me an error  -->
+        <button id ="submit">Submit</button>
+    </form>
+</nav>
+<main>
+    <div id = 'map'></div>
+    <div id = "drpdwn">
+        <button id= "dropbutton">Dropdown</button>
+        <!-- <div id = "drpdwnCont">
+            <a id = 'test' value ="coffee">C1</a>
+            <a id = 'test1'value = "coffee2">C2</a>
+            <a id = 'tes2t'value = "coffee3">C3</a>
+            <a id = 'te3st' value = "coffee4">C4</a>
+            <a id = 'tes4t' value = "coffee5">C5</a> -->
+            
+            <ul id="drpdwnCont">
+                <li class="test3" value="44"><a>asdf</a></li>
+                <li class="test3" value="45"><a>asdf</a></li>
+                <li class="test3" ><a href="">asdf</a></li>
+                <li class="test3" ><a href="" value = '3'>asdf</a></li>
+            </ul>
+            
+
+        </div>
+
+    
+        
+    </div>
+
+</main>
+
+<aside>
+    
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</aside>
+<footer></footer>
+
+</body>
+</html>
